@@ -1,0 +1,19 @@
+# 隐私数据与运行产物 (绝对禁止上传)
+*.json
+*.txt
+!requirements.txt
+
+# 虚拟环境
+.venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller 编译产物
+build/
+dist/
+*.spec
+*.exe
